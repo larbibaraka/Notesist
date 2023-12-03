@@ -1,3 +1,4 @@
+import Footer from "./_componenets/footer";
 import Heading from "./_componenets/heading";
 import Heroes from "./_componenets/heroes";
 
@@ -8,6 +9,7 @@ function MarketingPage() {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 }
