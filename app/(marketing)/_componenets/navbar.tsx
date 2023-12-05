@@ -7,6 +7,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 
 const Navbar = () => {
   const scrolled = useScrollTop();
+
   return (
     <div
       className={cn(
